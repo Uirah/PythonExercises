@@ -1,0 +1,15 @@
+print('-' * 40)
+times = ('Corinthians', 'Bragantino', 'AtleticoMG', 'Santos', 'Coritiba', 'Cuiaba', 'Internacional', 'Avai', 'AmericaMG', 'Palmeiras', 'Flamengo', 'Botafogo', 'SaoPaulo', 'Fluminense', 'CearaSC', 'AthleticoPR', 'AtleticoGO', 'Goias', 'Juventude', 'Fortaleza')
+print(f'Lista de times do Brasileirão: {times}')
+# poderia fazer tambem:
+#for time in times:
+    #print(time)
+print('-' * 40)
+print(f'Os 5 primeiros são: {times[:5]}')
+print('-' * 40)
+print(f'Os últimos 4 são: {times[-4:]}')
+# ou print(f'Os últimos 4 são: {times[16:20]}')
+print('-' * 40)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-' * 40)
+print(f'O Avaí está na {times.index("Avai") + 1}ª posição.')
